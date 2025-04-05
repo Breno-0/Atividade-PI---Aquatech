@@ -156,62 +156,63 @@ text-align: center;
 
 /*-------------Login-------------*/
 
-.login .container{
+.login {
     height: var(--tamanho-banner);
     color: white;
     background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
     background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.formulario {
-    width: 300px;
-    height: 300px;
-    background-color: transparent;
-    border: solid #32b9cd;
-    border-radius: 20px;
+.login h2{
+    text-align: center;
+}
 
+.login .card  {
+    background-color: #e5e5e5;
+    color: rgb(218, 55, 88);
+    padding: 40px 30px;
+    border: solid black 1px;
+    border-radius: 25px;
+    margin-left: 450px;
+}
+
+.login .formulario {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px;
-}
-
-.formulario .campo{
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.login .input{
-    width: 150px;
-    height: 25px;
+.login input{
+    background-color: white;
     border: solid #32b9cd 2px;
-    border-radius: 10px;
-    color: #32b9cd;
-    background-color: transparent;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .login .botao {
-    width: 100px;
-    height: 50px;
-    border: solid #32b9cd;
-    border-radius: 25px;
-    color: #32b9cd;
-    background-color: transparent;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
 }
 
 .botao:hover {
-    background-color: #e5e5e5;
-    color: black;
+    background-color: #d81b60;
 }
 
 /*Cadastro*/
 
-.cadastro .container{
+.cadastro {
     height: var(--tamanho-banner);
     color: white;
     background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
@@ -221,45 +222,45 @@ text-align: center;
     justify-content: center;
 }
 
-.cadastro .formulario {
-    width: 500px;
-    height: 500px;
-    background-color: transparent;
-    border: solid #32b9cd;
-    border-radius: 20px;
+.cadastro h2{
+    text-align: center;
+}
 
+.cadastro .card  {
+    background-color: #e5e5e5;
+    color: rgb(218, 55, 88);
+    padding: 70px 40px;
+    border: solid black 1px;
+    border-radius: 25px; 
+    margin-left: 450px;
+}
+
+.cadastro .formulario {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px;
-}
-
-.formulario .campo{
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.cadastro .input{
-    width: 200px;
-    height: 25px;
+.cadastro input{
+    background-color: white;
     border: solid #32b9cd 2px;
-    border-radius: 10px;
-    color: #32b9cd;
-    background-color: transparent;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .cadastro .botao {
-    width: 100px;
-    height: 50px;
-    border: solid #32b9cd;
-    border-radius: 25px;
-    color: #32b9cd;
-    background-color: transparent;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
 }
 
 .botao:hover {
-    background-color: #e5e5e5;
-    color: black;
+    background-color: #d81b60;
 }
